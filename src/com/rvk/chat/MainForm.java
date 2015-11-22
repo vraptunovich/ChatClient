@@ -129,7 +129,7 @@ public class MainForm extends JFrame {
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
-
+// main form
 
     }
 
@@ -145,6 +145,8 @@ public class MainForm extends JFrame {
             public void run() {
                 JFrame.setDefaultLookAndFeelDecorated(true);
                 createGUI();
+
+
             }
         });
     }
